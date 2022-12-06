@@ -1,0 +1,58 @@
+h1{
+  color: black;
+  font-style: italic;
+}
+
+textarea {
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid lightgrey;
+  height: 100px;
+  padding: 10px;
+  outline: none;
+  background-color: rgb(243, 243, 107);
+}
+
+button {
+  width: 100%;
+  background-color: #fff27f;
+  cursor: pointer;
+  padding: 10px; 
+  border: 0;
+  outline: none;
+}
+
+button:hover {
+  background-color: tomato;
+  color: white;
+}
+
+.note-form {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+
+.notes{
+  padding: 1px;
+  margin: 20px;
+}
+
+.text {
+  float: left;
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+  border: 1px solid lightgrey;
+  height: 100px;
+  padding: 20px;
+  margin-right: 10px;
+  outline: none;
+  background-color: rgb(28, 154, 212);
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-y: scroll;
+    }
+    
+.text:hover{
+  background-color: rgb(245, 184, 233);
+}
+
